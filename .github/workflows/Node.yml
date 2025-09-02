@@ -7,7 +7,7 @@ on:
 
 jobs:
   build-and-test:
-    rus-on: ibuntu-latest
+    rus-on: ubuntu-latest
     steps:
       - name: Checkout code
         uses: actions/checkout@v3
